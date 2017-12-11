@@ -1,0 +1,50 @@
+  body {
+      padding: 15px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-color: #E3EFEE;
+      width: 1202px;
+      margin: auto;
+  }
+  .text {
+      font-size: 12px;
+      /*Gave my text in the circles a slight white shadow so they are easier to read on the darker circles*/
+      text-shadow: white 0px 0px 10px;
+      font-weight: bold;
+  }
+  h1 {
+      color: #105952;
+      font-size: 32px;
+      text-align: center;
+      /*background-color: white;*/
+      
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding: 10px;
+      border-bottom: solid 1px #aaa;
+  }
+  h2 {
+      transform-origin: 50% 50% 0px;
+      text-align: left;
+      /*padding-left:50px; */
+      
+      background-color: white;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      padding: 10px;
+      border-left: solid 1px #aaa;
+      border-right: solid 1px #aaa;
+  }
+  svg {
+      background-color: white;
+      border-left: solid 1px #aaa;
+      border-right: solid 1px #aaa;
+      border-bottom: solid 1px #aaa;
+  }
+  .button {
+      color: #105952;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  button {
+      font-size: 20px;
+  }
